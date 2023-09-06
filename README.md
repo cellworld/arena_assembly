@@ -5,12 +5,12 @@ a web browswer, you can use this [Onshape link](https://cad.onshape.com/document
 The onshape document is composed of both part studios (from which all components are derived from) and assemblies to see how parts fit together.
 The assemblies will be the first files you see. You can both manipulate objects within the assemblies and export them to whatever file you need.
 
-Components of the arena can be devised into three components: the arena itself, the door system, and the obstacles. 
+Components of the arena can be devised into three components: the arena itself, the automated door system, and the obstacles. 
 Construction within each of these categories will be described below, but all parts are derived from either laser-cut acrylic or 3D printing.
 Parts that need to be 3D printed will have the string "3D_PRINT" inserted at the beginning of the part's name.
 
 ## The Arena
-
+Files associated with building the general arena are the following
 * the 
 * ccat
 change
