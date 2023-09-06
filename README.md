@@ -35,4 +35,4 @@ arena walls and to the return chute ceiling for easy attachment.
 
 ## The Door System
 This is the most complex component of the arena to assemble. Three main STEP files will be used to create the structure of the doors:
-"START Door Frame.step"
+"START Door Frame.step", "START flag support.step", "START inner door support"
