@@ -1,7 +1,7 @@
 # Cellworld Arena Assembly
-<!-- ![Alt Text](https://github.com/cellworld/arena_assembly/Images/cellworld_components.png) -->
+<!-- ![Alt Text](https://github.com/cellworld/arena_assembly/blob/main/Images/cellworld_components.png) -->
 <p align="center">
-  <img src="https://github.com/cellworld/arena_assembly/Images/cellworld_components.png" alt="arena_overview" width="600" height="200">
+  <img src="https://github.com/cellworld/arena_assembly/blob/main/Images/cellworld_components.png" alt="arena_overview" width="600" height="200">
 </p>
 
 All parts of the arena can be found in STEP files of this github repository. However, to see how the parts assemble on 
@@ -146,10 +146,11 @@ Construction:
 9. Repeat steps 1-8 for other chamber.
 
 ## Electronics
-<!-- ![Alt Text](https://github.com/cellworld/arena_assembly/Images/maze1_circuit_diagram.png) -->
+<!-- ![Alt Text](https://github.com/cellworld/arena_assembly/blob/main/Images/maze1_circuit_diagram.png) -->
 <p align="center">
-  <img src="https://github.com/cellworld/arena_assembly/Images/maze1_circuit_diagram.png" alt="circuit_diagram" width="600" height="200">
+  <img src="https://github.com/cellworld/arena_assembly/blob/main/Images/maze1_circuit_diagram.png" alt="circuit_diagram" width="600" height="200">
 </p>
+
 For connecting all systems together, please follow the EAGLE circuit diagram shown in *door_water_feeder_electronics.zip*.
 
 ## Code
