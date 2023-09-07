@@ -71,7 +71,6 @@ Specialized Parts:
 * DC motors (50:1 6V micro metal gearmotor, Pololu, Las Vegas, NV, USA)
 * Plastic motor holders (Micro Metal Gearmotor Bracket Extended Pair, Pololu, Las Vegas, NV, USA)
 * DC motor gear hubs (Universal Aluminum Mounting Hub for 3mm Shaft, M3 Holes, Pololu, Las Vegas, NV, USA)
-* Raspberry Pis (3B+, Raspberry Pi, Cambridge, England, UK)
 * Motor driver (DRV8833 Dual Motor Driver Carrier, Pololu, Las Vegas, Nevada, USA, part no. 2130)
 * Limit switches (Micro Limit Switch 3Pins, TIAIHUA, China)
 
@@ -152,6 +151,10 @@ Construction:
 </p>
 
 For connecting all systems together, please follow the EAGLE circuit diagram shown in *door_water_feeder_electronics.zip*.
+
+Specialized Parts:
+* Raspberry Pis (3B+, Raspberry Pi, Cambridge, England, UK)
+
 
 ## Code
 Relevant code for the arena doors and water feeders resides in separate repositories:
