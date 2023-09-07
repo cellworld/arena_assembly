@@ -1,4 +1,9 @@
 # Cellworld Arena Assembly
+<!-- ![Alt Text](https://github.com/cellworld/arena_assembly/Images/cellworld_components.png) -->
+<p align="center">
+  <img src="https://github.com/cellworld/arena_assembly/Images/cellworld_components.png" alt="arena_overview" width="600" height="200">
+</p>
+
 All parts of the arena can be found in STEP files of this github repository. However, to see how the parts assemble on 
 a web browswer, you can use this [Onshape link](https://cad.onshape.com/documents/c8897f9f1e8291dd2da7ef89/w/1c35d23167742132946594eb/e/1fb43747d3ac53d540c92c7f?renderMode=0&uiState=64f8d54faca3cb0d59202402z).
 
@@ -21,7 +26,7 @@ opposite of the return chute is replaced by the *Human Door.step*  to allow for 
 With exception to the wall binders (which are 3D printed), all parts are cut from white acrylic. All chamber and return chute components (the walls and ceilings) 
 use 3.175 mm thick white acrylic, but all other parts use 6.35 mm thick white acrylic.
 
-Please refer to the *Cellworld Arena.step* file in the *Assemblies* folder to see how all parts should fit.
+Please refer to the *Cellworld Arena.step* file in the *Assemblies* directory to see how all parts should fit.
 
 Specialized Parts:
 * 11.11 mm diameter neodymium magnets (D74-N52, K&J Magnetics, Pipersville, PA, USA)
@@ -59,7 +64,7 @@ the chambers and the return chute. The door supports are housed in one large "do
 from interacting with electronic components. 
 
 All parts are either 3D-printed or laser-cut using 3.175 mm thick white acrylic. 
-To see how everything is assembled, refer to  *Full Door Setup.step* in the *Assemblies* folder
+To see how everything is assembled, refer to  *Full Door Setup.step* in the *Assemblies* directory,
 but note that this is showing the assembly for the END chamber (mirrored to the part studio files). 
 
 Specialized Parts:
@@ -97,7 +102,7 @@ and superglue (for when parts need more support).
    9. Superglue 1.5875 mm thick white neoprene rubber to the "Inner Door Silicone Holder"
    10. Slide the assembled "Inner Door Silicone Holder" into the door support. 
    11. Insert bolt into the "Inner Door Silicone Holder" and secure with nut. Bolt should be able to press the limit switch when the door is moving down. 
-5. Wire motors and limit switches based on *door_water_feeder_electronics.zip* in the *Electronics* folder, making sure that wires connecting limit switches and motors to the motor drivers
+5. Wire motors and limit switches based on *door_water_feeder_electronics.zip* in the *Electronics* directory, making sure that wires connecting limit switches and motors to the motor drivers
 are detachable. 
 6. Insert the assembled *START Door Frame.step* into the START chamber. 
 7. Insert the assembled *START outer door support.step* and *START inner door support.step* into the Door Frame 
@@ -106,7 +111,7 @@ are detachable.
 
 ## The Obstacles
 All obstacles are laser cut using 6.35 mm thick white acrylic. 
-To see how everything is assembled, refer to  *Exploded Obstacle. step* in the *Assemblies* folder.
+To see how everything is assembled, refer to  *Exploded Obstacle. step* in the *Assemblies* directory.
 
 Specialized Parts:
 * 11.11 mm diameter neodymium magnets (D74-N52, K&J Magnetics, Pipersville, PA, USA).
@@ -137,16 +142,20 @@ Construction:
 5. Attach wire to water spout using heat shrink wrap. 
 6. Secure *3D_PRINT Feeder Holder.step* to chamber walls and insert water spout. 
 7. Attach tubing between water spout, solenoid, and water reservoir. 
-8. Connect electronics based on *door_water_feeder_electronics.zip* in the *Electronics* folder.
+8. Connect electronics based on *door_water_feeder_electronics.zip* in the *Electronics* directory.
 9. Repeat steps 1-8 for other chamber.
 
 ## Electronics
-For connecting all systems together, please follow the Eagle circuit diagram shown in *door_water_feeder_electronics.zip*.
+<!-- ![Alt Text](https://github.com/cellworld/arena_assembly/Images/maze1_circuit_diagram.png) -->
+<p align="center">
+  <img src="https://github.com/cellworld/arena_assembly/Images/maze1_circuit_diagram.png" alt="circuit_diagram" width="600" height="200">
+</p>
+For connecting all systems together, please follow the EAGLE circuit diagram shown in *door_water_feeder_electronics.zip*.
 
 ## Code
 Relevant code for the arena doors and water feeders resides in separate repositories:
 
 * Code installed on Raspberry Pis (creates services for doors and the water feeder):
-[]
+[https://github.com/germanespinosa/cellworld_habitat_pi](https://github.com/germanespinosa/cellworld_habitat_pi)
 * Terminal to control and connect to doors and water feeder:
-[]
+[https://github.com/germanespinosa/cellworld_habitat_controller](https://github.com/germanespinosa/cellworld_habitat_controller)
