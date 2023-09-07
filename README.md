@@ -14,33 +14,42 @@ Parts that need to be 3D printed will have the string "3D_PRINT" inserted at the
 Step files will have multiple parts included in them.
 
 ## The Arena
-The arena consists of the arena floor, arena walls, general chamber structures, and the return chute. 11.11 mm diameter neodymium magnets (D74-N52, K&J Magnetics, Pipersville, PA, USA) are 
-placed into the floor to hold obstacles in place. Please use the *Final Arena.step*  to grab all the parts. The one arena wall
+The arena consists of the arena floor, arena walls, general chamber structures, and the return chute. 
+Please use the *Final Arena.step*  to grab all the parts. The one arena wall
 opposite of the return chute is replaced by the *Human Door.step*  to allow for easy entry of the researcher. 
-With exception to the wall binders (which are 3D printed), all parts are cut from white acrylic. All chamber and return chute components (the walls and ceilings) 
-use 3.175 mm thick arcylic, but all other parts use 6.35 mm thick acrylic.
 
+With exception to the wall binders (which are 3D printed), all parts are cut from white acrylic. All chamber and return chute components (the walls and ceilings) 
+use 3.175 mm thick white acrylic, but all other parts use 6.35 mm thick white acrylic.
 
 Please refer to the *Cellworld Arena.step* file in the *Assemblies* folder to see how all parts should fit.
 
+Specialized Parts:
+* 11.11 mm diameter neodymium magnets (D74-N52, K&J Magnetics, Pipersville, PA, USA)
+* Red light bulbs (LED Red light therapy bulb, Wolezek LED, China)
+* Full spectrum growth lights (9-Watt LED Grow Light Bulb, General Electric, Boston, MA, USA)
+* UV light bulbs (UV LED Black lights Bulb, SHGPODA, Shenzhen, Guangdong, China)
+* White noise generator (LectroFan Classic, Campbell, CA, USA)
+
 Construction:
-1. Assemble floor panels together and insert magnets into floor slots with superglue
-2. Assemble Human Door.step using 80/20 1-in aluminum as a frame
-2. Slot walls and door into the floor
-2. Attach 3D-printed wall binders using bolts to connect walls together
-3. Add layer of hand-cut clear vinyl over arena floor
-4. Seal connections between arena walls and the floor with silicone sealant
-5. Slot chamber walls and return chute walls into floor
-6. Seal connections between chamber/return chute walls and the floor with silicone sealant
+1. Assemble floor panels together and insert magnets into floor slots with superglue.
+2. Assemble *Human Door.step* using 80/20 25.4 mm aluminum as a frame.
+2. Slot walls and door into the floor.
+2. Attach 3D-printed wall binders using bolts to connect walls together.
+3. Add layer of hand-cut clear vinyl (to the shape of the arena) over arena floor.
+4. Seal connections between arena walls and 3.175 mm thick clear vinyl floor with silicone sealant.
+5. Slot chamber walls and return chute walls into floor.
+6. Seal connections between chamber/return chute walls and the floor with silicone sealant.
 7. Attach chamber and return chute ceilings. For return chute ceilings we added sticky magnets to the outside of the
 arena walls and to the return chute ceiling for easy attachment.
 8. Bond introduction chamber walls (minus the "Introduction Sliding Wall") together with the introduction chamber floor using liquid solvent for acrylic bonding (#4 Acrlyic Adhesive, Weld-On, Compton, CA, USA).
-9. Insert magnets using superglue into "Introduction Chamber Wall" and the "Introduction Door Blocker"
+9. Insert magnets using superglue into "Introduction Chamber Wall" and the "Introduction Door Blocker".
+10. Place light bulbs in the softbox and place in the arena.
+11. Mount white noise generator near arena.
 
 ## The Door System
 This is the most complex component of the arena to assemble. Three main STEP files will be used to create the structure of the doors:
-*START Door Frame.step*, *START outer door support.step*, *START inner door support.step*. 
-To note, all these components are associated with the START chamber, however, all parts can work with the END door as well as
+*START Door Frame.step*, *START outer door support.step*, and *START inner door support.step*. 
+To note, all these components are associated with the START chamber, however, all parts can work with the END chamber as well as
 they are simply mirrored before construction. 
 
 Files labeled as the "door support" are the components that hold the 
@@ -53,18 +62,86 @@ All parts are either 3D-printed or laser-cut using 3.175 mm thick white acrylic.
 To see how everything is assembled, refer to  *Full Door Setup.step* in the *Assemblies* folder
 but note that this is showing the assembly for the END chamber (mirrored to the part studio files). 
 
-Purchased Parts:
+Specialized Parts:
 * DC motors (50:1 6V micro metal gearmotor, Pololu, Las Vegas, NV, USA)
-* Plastic DC motor holders ()
-* DC motor gear thingy ()
+* Plastic motor holders (Micro Metal Gearmotor Bracket Extended Pair, Pololu, Las Vegas, NV, USA)
+* DC motor gear hubs (Universal Aluminum Mounting Hub for 3mm Shaft, M3 Holes, Pololu, Las Vegas, NV, USA)
 * Raspberry Pis (3B+, Raspberry Pi, Cambridge, England, UK)
-* H-bridges ()
-* Limit switches ()
+* Motor driver (DRV8833 Dual Motor Driver Carrier, Pololu, Las Vegas, Nevada, USA, part no. 2130)
+* Limit switches (Micro Limit Switch 3Pins, TIAIHUA, China)
 
 Construction:
-* fefe 
-  * fefefef
+1. Assemble *START Door Frame.step* using liquid solvent for acrylic bonding (#4 Acrlyic Adhesive, Weld-On, Compton, CA, USA)
+and superglue (for when parts need more support).
+2. Assemble *START outer door support.step*.
+3. Bond together all acrylic parts of the outer door support.
+   1. Insert limit switched into "3D_PRINT Switch Holder" such that button is facing towards open slot, securing with screws. 
+   2. Bolt down limit switch holder to bonded door support structure. 
+   3. Attach the "3D_PRINT DC Motor Spacer" by slotting it into the door support. 
+   4. Attach the Pololu DC motor gear hubs to the Pololu DC motors. 
+   5. Screw down the *3D_PRINT DC_Gear.step* into the gear hubs and motor using M3 screws. 
+   6. Place motor on top of the spacer and add the Pololu plastic motor holders, bolting them with the provided Pololu nuts and bolts. 
+   7. Superglue *3D_PRINT DC_Teeth.step* into open slot of "Outer Door Silicone Holder" in *Outer Door.step*. 
+   8. Superglue 1.5875 mm thick white neoprene rubber cut to the size of the "Silicone Extension" in *Outer Door.step* to the "Outer Door Silicone Holder". 
+   9. Slide the assembled *Outer Door.step* into the door support. 
+   10. Insert bolt into *Outer Door.step* and secure with nut. Bolt should be able to press limit switches as the door goes up and down. 
+4. Assemble *START inner door support.step*
+   1. Bond together all acrylic parts of the outer door support except the "Inner Door Silicone Holder". 
+   2. Insert limit switched into "3D_PRINT Switch Holder", securing with screws. 
+   3. Bolt down limit switch holder to bonded door support structure. 
+   4. Attach the "3D_PRINT DC Motor Spacer" in *START outer door support.step* by slotting it into the door support. 
+   5. Attach the Pololu DC motor gear hubs to the Pololu DC motors. 
+   6. Screw down the *3D_PRINT DC_Gear.step* into the gear hubs and motor using M3 screws. 
+   7. Place motor on top of the spacer and add the Pololu plastic motor holders, bolting them with the provided Pololu nuts and bolts. 
+   8. Superglue *3D_PRINT DC_Teeth.step* into open slot of "Inner Door Silicone Holder". 
+   9. Superglue 1.5875 mm thick white neoprene rubber to the "Inner Door Silicone Holder"
+   10. Slide the assembled "Inner Door Silicone Holder" into the door support. 
+   11. Insert bolt into the "Inner Door Silicone Holder" and secure with nut. Bolt should be able to press the limit switch when the door is moving down. 
+5. Wire motors and limit switches based on *door_water_feeder_electronics.zip* in the *Electronics* folder, making sure that wires connecting limit switches and motors to the motor drivers
+are detachable. 
+6. Insert the assembled *START Door Frame.step* into the START chamber. 
+7. Insert the assembled *START outer door support.step* and *START inner door support.step* into the Door Frame 
+8. Connect the limit switches and motors to the motor drivers. 
+9. Repeat steps 1-8 for the END chamber using mirrored parts
 
+## The Obstacles
+All obstacles are laser cut using 6.35 mm thick white acrylic. 
+To see how everything is assembled, refer to  *Exploded Obstacle. step* in the *Assemblies* folder.
+
+Specialized Parts:
+* 11.11 mm diameter neodymium magnets (D74-N52, K&J Magnetics, Pipersville, PA, USA).
+
+Construction:
+* For each obstacle, laser cut 1 "Occlusion Base", 1 "Occlusion Top", and 6 "Occlusion Walls".
+* Attach magnets into the "Occusion Base" using super glue
+* Assemble and bond all parts together using liquid solvent for acrylic bonding (#4 Acrlyic Adhesive, Weld-On, Compton, CA, USA).
+
+## The Water Feeders
+All water feeder parts listed in this repository are 3D-printed. 
+
+Specialized Parts:
+* Solenoids 
+  * We use this solenoid: 2-way Normally Closed Isolation Valve, part number 161T012, NResearch, West Caldwell, NJ, USA
+  * However, we recommend using these (this may require changes to the solenoid holder part): 
+  Miniature Solenoid Valves Normally Closed 24V, part number 5001T36, McMaster-Carr, Elmhurst, IL, USA)
+* Capacitive Sensor (AT42QT1011, SparkFun, Boulder, CO, USA)
+* Water Spout (Curved Feeding Needles 18 Gauge, part number FNC-18-2-2, Kent Scientific, Torrington, CT, USA)
+* Tubing (Tygon S3 E-3603, 1/16 in Inside Dia. 1/8 in Outside Dia., Saint-Gobain, Courbevoie, France)
+* Mosfet (RFP30N06LE 30A 60V N-Channel Power Mosfet, WeiMeet, China)
+
+Construction:
+1. Place a 60mL syringe, into the *3D_PRINT Water Reservoir Holder.step*
+2. Secure the water reservoir 1m above the ground.
+3. Place solenoid inside *3D_PRINT Solenoid Holder.step*
+4. Secure the solenoid ~30cm above the ground between water reservoir and chamber 
+5. Attach wire to water spout using heat shrink wrap. 
+6. Secure *3D_PRINT Feeder Holder.step* to chamber walls and insert water spout. 
+7. Attach tubing between water spout, solenoid, and water reservoir. 
+8. Connect electronics based on *door_water_feeder_electronics.zip* in the *Electronics* folder.
+9. Repeat steps 1-8 for other chamber.
+
+## Electronics
+For connecting all systems together, please follow the Eagle circuit diagram shown in *door_water_feeder_electronics.zip*.
 
 ## Code
 Relevant code for the arena doors and water feeders resides in separate repositories:
