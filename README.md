@@ -4,8 +4,8 @@
   <img src="https://github.com/cellworld/arena_assembly/blob/main/Images/cellworld_components-01.png" alt="arena_overview" width="600" height="381">
 </p>
 
-All parts of the arena can be found in STEP files of this github repository. However, to see how the parts assemble on 
-a web browswer, you can use this [Onshape link](https://cad.onshape.com/documents/c8897f9f1e8291dd2da7ef89/w/1c35d23167742132946594eb/e/1fb43747d3ac53d540c92c7f?renderMode=0&uiState=64f8d54faca3cb0d59202402z).
+All parts of the arena can be found in STEP files of this github repository. <u>However, to see how the parts assemble on 
+a web browswer, you can use this [Onshape link](https://cad.onshape.com/documents/c8897f9f1e8291dd2da7ef89/w/1c35d23167742132946594eb/e/1fb43747d3ac53d540c92c7f?renderMode=0&uiState=64f8d54faca3cb0d59202402z)</u>.
 
 Files in this repository are based on the Onshape CAD file system where we designed components in part studios and then imported them into assemblies 
 to determine their interaction with other parts. Assemblies are good for visualizing how components are placed together for construction. 
