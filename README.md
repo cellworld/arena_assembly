@@ -1,7 +1,7 @@
 # Cellworld Arena Assembly
-<!-- ![Alt Text](https://github.com/cellworld/arena_assembly/blob/main/Images/cellworld_components.png) -->
+<!-- ![Alt Text](https://github.com/cellworld/arena_assembly/blob/main/Images/cellworld_overview.png) -->
 <p align="center">
-  <img src="https://github.com/cellworld/arena_assembly/blob/main/Images/cellworld_components.png" alt="arena_overview" width="600" height="350">
+  <img src="https://github.com/cellworld/arena_assembly/blob/main/Images/cellworld_overview.png" alt="arena_overview" width="600" height="350">
 </p>
 
 All parts of the arena can be found in STEP files of this github repository. However, to see how the parts assemble on 
