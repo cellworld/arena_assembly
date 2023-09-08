@@ -56,6 +56,7 @@ This is the most complex component of the arena to assemble. Three main STEP fil
 *END Door Housing.step*, *START outer door support.step*, and *START inner door support.step*. 
 To note, all these components are associated with either the START or END chamber (indicated by their name), 
 however, all parts can work with both chambers as they are simply mirrored before construction. 
+In many cases, this might mean simply flipping parts during assembly.
 
 Files labeled as the "door support" are the components that hold the 
 DC motors, limit switches, and silicone/laser cut doors, keeping them in place so that the gear on the motors precisely interacts with the rail inserted into the doors. 
