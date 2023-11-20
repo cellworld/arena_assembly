@@ -166,6 +166,6 @@ Specialized Parts:
 Relevant code for the arena doors and water feeders resides in separate repositories:
 
 * Code installed on Raspberry Pis (creates services for doors and the water feeder):
-[https://github.com/germanespinosa/cellworld_habitat_pi](https://github.com/germanespinosa/cellworld_habitat_pi)
+[https://github.com/cellworld/cellworld_habitat_pi](https://github.com/cellworld/cellworld_habitat_pi)
 * Terminal to control and connect to doors and water feeder:
-[https://github.com/germanespinosa/cellworld_habitat_controller](https://github.com/germanespinosa/cellworld_habitat_controller)
+[https://github.com/cellworld/cellworld_habitat_controller](https://github.com/cellworld/cellworld_habitat_controller)
